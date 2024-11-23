@@ -14,7 +14,7 @@
     
       }
       .row{
-        clear:both;c
+        clear:both;
       }
     </style>
     <div class="row">
@@ -33,8 +33,8 @@
       <div onclick="place(this);"></div>
     </div>
     <script>
-      function place(box){
-        var currentPlayer="o";
+      var currentPlayer="o";
+      function place(box);
         box.innerText=currentPlayer;
         currentPlayer == "o" ? currentPlayer="x" : currentPlayer="o";
       }
